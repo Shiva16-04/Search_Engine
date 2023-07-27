@@ -47,7 +47,7 @@
         </div>
         <div class="container5">
             <div class="c5button">
-                <a>About Googie</a>
+                <a href="https://github.com/Shiva16-04/Search_Engine/blob/main/README.md" class="About_me">About Googie</a>
             </div>
             <div><a href="https://acciojob.com/" class="AccioJob">Projects - AccioJob (India)</a></div>
         </div>
