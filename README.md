@@ -1,8 +1,8 @@
 # Search_Engine
 **Welcome to the "Googie", "The Search Engine" towards focussed learning.**                                                                
 **Image 1, 2:** Googie Home WebPages
-![image](https://github.com/Shiva16-04/Search_Engine/assets/100616140/fe167962-2bcb-40dd-84d0-203aa89215d7)
-![image](https://github.com/Shiva16-04/Search_Engine/assets/100616140/c0c6be39-97e3-479d-9b40-c8ec0cf0f215)
+![image](https://github.com/Shiva16-04/Search_Engine/assets/100616140/08f0e352-4859-49f8-8914-dcfc5d2359c2)
+![image](https://github.com/Shiva16-04/Search_Engine/assets/100616140/781f3aa0-7170-40c1-a560-27e35903a54e)
 **Image 3, 4:** Top 30 results of search keyword: "Spring" 
 ![image](https://github.com/Shiva16-04/Search_Engine/assets/100616140/d1791d74-1f08-4e4d-8dbe-03b2c7423f67)
 ![image](https://github.com/Shiva16-04/Search_Engine/assets/100616140/8ed70bbe-46a6-4e5f-8116-6378bc7c6a63)
