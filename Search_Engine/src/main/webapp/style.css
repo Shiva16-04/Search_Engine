@@ -122,11 +122,23 @@ body {
     .AccioJob {
         text-decoration: none;
         color: whitesmoke;
+        font-size: 14px;
     }
 
     .AccioJob:hover {
         text-decoration: underline;
     }
+
+    .About_me {
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 14px;
+    }
+
+    .About_me:hover {
+        text-decoration: underline;
+    }
+
 }
 
 #b1,
@@ -209,10 +221,10 @@ body {
 }
 
 .resetIcon {
-    display:none;
+    display: none;
 }
 
-.searchbar1:hover + .resetIcon {
+.searchbar1:hover+.resetIcon {
     display: block;
 }
 
