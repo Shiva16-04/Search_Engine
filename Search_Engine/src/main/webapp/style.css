@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Mynerve&family=Zeyada&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url("colors.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.searchEngine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 100%;
+    width: 100%;
+    min-width: 100px;
+    min-height: 100px;
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    height: 30%;
+    width: 100%;
+
+    .googiemain {
+        .googie {
+            font-family: 'Zeyada', cursive;
+            font-size: 800%;
+            color:
+                #c6ffdd → #fbd786 → #f7797d;
+            font-style: normal;
+            font-weight: 600;
+            margin: 0px;
+            padding: 0px;
+            line-height: 100%;
+        }
+    }
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+}
+
+.searchbar,
+.history_from_wrapper {
+    position: relative;
+}
+
+.searchbar {
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    height: 15%;
+    width: 44%;
+    min-height: 28px;
+    min-width: 520px;
+    margin-bottom: 4%;
+    border-radius: 250px;
+
+    .icon {
+        padding-left: 1.5%;
+        padding-right: 1.4%;
+    }
+
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+
+    .searchbutton {
+        margin: 10px;
+    }
+
+    .historybutton {
+        margin: 10px;
+    }
+}
+
+.container4 {
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5%;
+    width: 100%;
+}
+
+.container5 {
+    background-color: #243b55;
+    color: whitesmoke;
+    display: flex;
+    height: 5%;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    .AccioJob {
+        text-decoration: none;
+        color: whitesmoke;
+    }
+
+    .AccioJob:hover {
+        text-decoration: underline;
+    }
+}
+
+#b1,
+#b2 {
+    border-radius: 100px;
+    width: 8rem;
+    height: 2rem;
+}
+
+
+#b1 {
+    position: absolute;
+    top: 4.1rem;
+    right: 20rem;
+}
+
+#b2 {
+    position: absolute;
+    top: 20.5rem;
+    right: 34rem;
+}
+
+#b1:hover {
+    color: white;
+    background-color: #4ca1af;
+}
+
+#b2:hover {
+    color: white;
+    background-color: #4ca1af;
+}
+
+/*search web page css*/
+.SearchResults {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%
+}
+
+.page_direction_icons {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10%;
+    align-items: center;
+    justify-content: end;
+}
+
+.SearchContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    line-height: 100%;
+    width: 100%;
+    height: 20%;
+}
+
+.searchbar1 {
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    height: 34%;
+    width: 44%;
+    min-height: 28px;
+    min-width: 520px;
+    border-radius: 250px;
+
+    .icon {
+        padding-left: 1.5%;
+        padding-right: 1.4%;
+    }
+
+
+
+}
+
+.resetIcon {
+    display:none;
+}
+
+.searchbar1:hover + .resetIcon {
+    display: block;
+}
+
+#b3 {
+    border-radius: 100px;
+    margin-left: 2rem;
+    width: 8rem;
+    height: 1.5rem;
+}
+
+#b3:hover {
+    color: white;
+    background-color: #4ca1af;
+}
+
+#searchPage_historyIcon,
+#historyPage_homeIcon {
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
+    margin-right: 1.5rem;
+}
+
+#searchPage_homeIcon {
+    margin-right: 0.5rem;
+}
+
+.TableContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 70%;
+}
